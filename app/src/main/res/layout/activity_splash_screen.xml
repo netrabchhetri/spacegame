@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/spaceshipup"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/spaceshipup" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_yellow2"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_orange2"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_yellow1"
+        android:src="@drawable/minor_shipship_yellow2" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_orange1"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_red1"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/minor_shipship_orange1" />
+
+
+    <ImageView
+        android:id="@+id/minor_shipship_yellow1"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_orange1"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/minor_shipship_yellow1" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_orange2"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_red2"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_orange1"
+        android:src="@drawable/minor_shipship_orange2" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_red2"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_red1"
+        android:src="@drawable/minor_shipship_red2" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_red3"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_red2"
+        android:src="@drawable/minor_shipship_red3" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_red4"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_red3"
+        android:src="@drawable/minor_shipship_red4" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_orange4"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_red4"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_orange3"
+        android:src="@drawable/minor_shipship_orange4" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_orange3"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_red3"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_orange2"
+        android:src="@drawable/minor_shipship_orange3" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_yellow3"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/minor_shipship_orange3"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_yellow2"
+        android:src="@drawable/minor_shipship_yellow3" />
+
+    <ImageView
+        android:id="@+id/minor_shipship_yellow4"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/minor_shipship_orange4"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/minor_shipship_yellow3"
+        android:src="@drawable/minor_shipship_yellow4" />
+
+
+    <ImageView
+        android:id="@+id/minor_shipship_red1"
+        android:layout_width="21dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/minor_shipship_red1" />
+
+    <ImageView
+        android:id="@+id/bullet"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/spaceshipup"
+        android:layout_marginStart="335dp"
+        android:layout_marginBottom="-220dp"
+        android:src="@drawable/bullet" />
+
+    <ImageView
+        android:id="@+id/laser_red"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/minor_shipship_yellow1"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/laser_red" />
+
+    <ImageView
+        android:id="@+id/satellite_shot"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/satellite_shot" />
+
+    <ImageView
+        android:id="@+id/health3_2"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/satellite_shot"
+        android:layout_marginStart="510dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/health3" />
+
+
+    <ImageView
+        android:id="@+id/health3"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/planet_earth"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/health3" />
+
+    <ImageView
+        android:id="@+id/planet_earth"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="213dp"
+        android:src="@drawable/planet_earth" />
+
+    <ImageView
+        android:id="@+id/planet_jupiter"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="213dp"
+        android:src="@drawable/planet_jupiter" />
+
+    <ImageView
+        android:id="@+id/health2"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/planet_jupiter"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/health2" />
+
+
+    <ImageView
+        android:id="@+id/planet_pink_purple"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="213dp"
+        android:src="@drawable/planet_pink_purple" />
+
+    <ImageView
+        android:id="@+id/health1"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/planet_pink_purple"
+        android:layout_marginStart="410dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/health1" />
+
+
+    <ImageView
+        android:id="@+id/planet_green_red"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="213dp"
+        android:src="@drawable/planet_green_red" />
+
+    <ImageView
+        android:id="@+id/health2_2"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/planet_green_red"
+        android:layout_marginStart="613dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/health2" />
+
+    <TextView
+        android:id="@+id/score_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/score"
+        android:text="230"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:text="SCORE:"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/lives_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/lives"
+        android:text="3"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="540dp"
+        android:layout_marginTop="7dp"
+        android:text="LIVES"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/major_spaceship"
+        android:layout_width="68dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/major_spaceship" />
+
+    <ImageView
+        android:id="@+id/health2_3"
+        android:layout_width="25dp"
+        android:layout_height="5dp"
+        android:layout_alignTop="@+id/major_spaceship"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-7dp"
+        android:src="@drawable/health2" />
+
+</RelativeLayout>
